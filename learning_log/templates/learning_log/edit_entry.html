@@ -1,11 +1,13 @@
 {% extends 'learning_log/base.html' %}
 {% block content %}
+<div class="card" id="edit-entry-card">
     <p><a href="{% url 'learning_log:topic' topic.id%}">{{ topic }}</a></p>
 
     <p>Edit entry:</p>
     <form action="{% url 'learning_log:edit_entry' entry.id %}" method="post">
         {% csrf_token %}
         {{ form.as_p }}
-        <button name="submit">save changes</button>
+        <button name="submit" style="border-radius: 15px; padding: 10px; background-color: black; color: white; margin-left: 250px;">Save Changes</button>
     </form>
+</div>
 {% endblock content %}

@@ -106,6 +106,14 @@ nav {
     font-size: 20.5px;
     color:black;
 }
+.topics-links1 {
+    font-size: 15px;
+}
+.topics-links1:hover {
+    font-size: 16.5px;
+    color:white;
+    transition: 0.7s;
+}
 #topic-card {
     width: 700px;
     background-color: rgb(4, 78, 105); ;
@@ -129,7 +137,7 @@ nav {
     background-color: rgb(147, 144, 144);
     border-radius: 20px;
     padding: 15px;
-    width: 200px;
+    width: 500px;
 }
 #entry-list:hover {
     background-color: rgb(215, 211, 211);
@@ -164,4 +172,63 @@ nav {
     border-radius: 20px; 
     width:200px; 
     transition: 0.6s;
+}
+#new-entry-card {
+    width: 750px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 80px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 265px;  
+    margin-bottom: 20px; 
+}
+#edit-entry-card {
+    width: 750px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 80px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 265px;  
+    margin-bottom: 20px; 
+}
+#new-topic-card {
+    width: 450px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 40px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 190px;
+    margin-left: 380px; 
+}
+#register-card {
+    width: 750px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 80px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 265px;  
+    margin-bottom: 20px; 
+}
+#register-card:hover {
+    width: 750px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 84px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 265px;  
+    margin-bottom: 20px; 
+    transition: 0.5s;
+}
+#login-card {
+    width: 450px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 40px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 190px;
+    margin-left: 380px; 
 }
