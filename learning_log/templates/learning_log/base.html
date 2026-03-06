@@ -14,7 +14,7 @@
       <h4><a href="{% url 'learning_log:home' %}" style="margin-left: 30px;">Learning Log</a></h4>
       <h4><a href="{% url 'learning_log:topics' %}" style="margin-right: 659px; margin-left: 20px;">Topics</a></h4>
     {% if user.is_authenticated %}
-      <h5 style="margin-right: 30px; color:aliceblue">Hello, {{ user.username }}.</h5>
+      <h5 style="margin-right: 20px; color:aliceblue">Hello, {{ user.username }}.</h5>
       <h4><a href="{% url 'users:logout' %}">Logout</a></h4>
     {% else %}
       <h4><a href="{% url 'users:register' %}">Register</a></h4>
