@@ -1,6 +1,14 @@
 {% extends 'learning_log/base.html' %}
 {% block content %}
-    <p>Learning Log</p>
-    <p>Learning Log helps you keep track of your learning, for any topic you're 
-    learning about.</p>
+<div style="margin-left: 150px; margin-top: 80px;" class="card" id="track-your-learning">
+    <h1 style="margin-left: 230px;">Track your Learning.</h1>
+</div>
+<div class="card" id="register-account-card" style="margin-left: 100px; margin-top: 40px;">
+    <h3>
+        <a href="{% url 'users:register' %}"  id="register-account">Register an account</a> to make
+        your own Learning Log, and <br>list the topics you're learning about.
+        Whenever you learn something new about a topic, make an entry 
+        summarizing what you've learned.
+     </h3>
+</div>
 {% endblock content %}

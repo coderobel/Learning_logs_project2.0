@@ -1,5 +1,6 @@
 {% extends 'learning_log/base.html' %}
 {% block content %}
+<div style="margin-left: 40px;">
     <p><a href="{% url 'learning_log:topic' topic.id%}">{{ topic }}</a></p>
     <p>Add a new entry:</p>
     <form action="{% url 'learning_log:new_entry' topic.id%}" method="post">
@@ -7,4 +8,5 @@
         {{ form.as_p }}
         <button name="submit">add entry</button>
     </form>
+</div>
 {% endblock content %}
