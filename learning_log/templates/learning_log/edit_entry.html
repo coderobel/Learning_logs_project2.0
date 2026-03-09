@@ -1,9 +1,9 @@
 {% extends 'learning_log/base.html' %}
 {% block content %}
 <div class="card" id="edit-entry-card">
-    <p><a href="{% url 'learning_log:topic' topic.id%}">{{ topic }}</a></p>
+    <h4><a href="{% url 'learning_log:topic' topic.id%}">{{ topic }}</a></h4>
 
-    <p>Edit entry:</p>
+    <h6>Edit entry:</h6>
     <form action="{% url 'learning_log:edit_entry' entry.id %}" method="post">
         {% csrf_token %}
         {{ form.as_p }}

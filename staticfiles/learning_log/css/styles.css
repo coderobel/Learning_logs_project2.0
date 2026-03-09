@@ -1,0 +1,234 @@
+.body {
+    background-image: url('../images/books.jpg');
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center;
+}
+h4{
+    display: inline;
+}
+h5 {
+    display: inline;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+nav a:hover {
+    color: black;
+    transition: 0.5s;
+    font-size: 24.5px;
+}
+#register-account {
+    color: rgb(180, 178, 178);
+}
+#register-account:hover{
+    font-size: 28.8px;
+    transition: 0.5s;
+    color:rgb(113, 110, 110);
+}
+nav {
+    background-color:rgb(30, 96, 120); 
+    padding-right: 70px; 
+    padding-top: 25px; 
+    padding-bottom: 25px;
+}
+#card {
+    width: 900px;
+    background-color: rgb(4, 78, 105); 
+    padding: 30px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+#card1 {
+    width: 700px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 80px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+#card2 {
+    width: 1000px;
+    background-color:rgb(4, 78, 105); 
+    padding: 40px;
+    border-radius: 30px;
+    color: rgb(235, 241, 245);
+}
+#topics-card{
+    width: 700px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 80px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+#topics-card:hover {
+    width: 700px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 86px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 400px;
+    transition: 0.5s;
+}
+#track-your-learning {
+    width: 900px;
+    background-color: rgb(4, 78, 105); 
+    padding: 30px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+#register-account-card {
+    width: 1000px;
+    background-color:rgb(31, 86, 106); 
+    padding: 60px;
+    border-radius: 30px;
+    color: rgb(235, 241, 245);
+    opacity: 0.95;
+}
+#register-account-card:hover {
+    transition: 0.5s;
+    width: 1000px;
+    background-color:rgb(3, 59, 79); 
+    padding: 62px;
+    border-radius: 30px;
+    color: rgb(235, 241, 245);
+    opacity: 1;
+}
+.topics-links {
+    font-size: 19px;
+}
+.topics-links:hover {
+    font-size: 20.5px;
+    color:black;
+}
+.topics-links1 {
+    font-size: 15px;
+}
+.topics-links1:hover {
+    font-size: 16.5px;
+    color:white;
+    transition: 0.7s;
+}
+#topic-card {
+    width: 700px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 80px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+#topic-card:hover {
+    width: 700px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 83px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 400px;
+    transition: 0.7s;
+}
+#entry-list {
+    background-color: rgb(147, 144, 144);
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+}
+#entry-list:hover {
+    background-color: rgb(215, 211, 211);
+    border-radius: 20px;
+    padding: 17px;
+    transition: 1s;
+}
+#add-new-entry-button {
+    background-color: black;
+    padding: 14px; 
+    border-radius: 20px; 
+    width:200px; 
+    margin-left: 390px;
+}
+#add-new-entry-button:hover {
+    background-color: black;
+    padding: 15px; 
+    border-radius: 20px; 
+    width:200px; 
+    transition: 0.6s;
+}
+#edit-entry-button {
+    background-color: black;
+    padding: 14px; 
+    border-radius: 20px; 
+    width:200px; 
+    margin-left: 350px;
+}
+#edit-entry-button:hover {
+    background-color: black;
+    padding: 15px; 
+    border-radius: 20px; 
+    width:200px; 
+    transition: 0.6s;
+}
+#new-entry-card {
+    width: 750px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 80px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 265px;  
+    margin-bottom: 20px; 
+}
+#edit-entry-card {
+    width: 750px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 80px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 265px;  
+    margin-bottom: 20px; 
+}
+#new-topic-card {
+    width: 450px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 40px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 190px;
+    margin-left: 380px; 
+}
+#register-card {
+    width: 750px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 80px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 265px;  
+    margin-bottom: 20px; 
+}
+#register-card:hover {
+    width: 750px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 84px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 265px;  
+    margin-bottom: 20px; 
+    transition: 0.5s;
+}
+#login-card {
+    width: 450px;
+    background-color: rgb(4, 78, 105); ;
+    padding: 40px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 190px;
+    margin-left: 380px; 
+}
